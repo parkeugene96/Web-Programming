@@ -1,0 +1,31 @@
+body{
+    background-color: chocolate;
+}
+h1{
+    font: 14pt, arial, Normal;
+    color: khaki;
+}
+h2.artist{
+    font: 14pt, arial, Bold;
+    color: moccasin;
+}
+h2.album{
+    font: 12pt, Arial, normal;
+    color: khaki;
+}
+h2.year{
+    font: 12pt, Arial, bold;
+    color: ivory;
+}
+p.verse{
+    font: 14pt, Trebuchet MS, Bold;
+    color: gold;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+p.chorus{
+    font: 14pt, Trebuchet MS, Bold, Italic;
+    color: gold;
+    margin-left: 4cm;
+    margin-right: 4cm;
+}
