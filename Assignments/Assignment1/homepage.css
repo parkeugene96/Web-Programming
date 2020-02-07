@@ -1,0 +1,115 @@
+h1.title{
+    text-align: center;
+    font: Geneva;
+    color: #31394c;
+}
+.banner{
+    align-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h3{
+    text-align: center;
+    color: #31394c;
+}
+
+.tab{
+    margin-left: 5%;
+    margin-right: 4%;
+    text-align: right;
+    overflow:hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.tab button{
+    color:#31394c;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+.tab button:hover{
+    background-color: #ddd;
+}
+
+.portrait {
+    padding-left: 30px;
+    margin-left: 60px;
+}
+
+div.main{
+    padding: 20px;
+    border:1px solid #ccc;
+    background-color: #f1f1f1;
+    display: flex;
+    box-sizing: 70%;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+aside.left4{
+    align-content: center;
+    flex-basis: 10%;
+}
+aside.left3{
+    align-content: center;
+    flex-basis: 10%;
+}
+p.d_label{
+    padding-top: 50%;
+    text-align: right;
+}
+p.description{
+    padding-top: 20%;
+    padding-left: 10px;
+    text-align: left;
+}
+
+div.favorite{
+    display: flex;
+    margin-left: 38%;
+}
+
+div.document{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+table.assignments{
+    text-align: center;
+    align-content: center;
+    margin-left: 25%;
+}
+
+div.interests{
+    display: flex;
+    margin-left: 25%;
+}
+aside.quotes{
+    flex-basis: 50%;
+}
+aside.links{
+    flex-basis: 50%;
+}
+ul.link{
+    list-style-type: none;
+    text-align: center;
+}
+
+a{
+    color:darkblue;
+}
+a:visited{
+    color: firebrick;
+}
+a:hover{
+    color: dimgray;
+}
+
+div.resume{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
