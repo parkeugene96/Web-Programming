@@ -1,0 +1,33 @@
+header{
+    text-align: center;
+}
+main{
+    display: flex;
+    box-sizing: 70%;
+    margin: auto;
+    
+}
+.left_column{
+    flex-basis: 33%;
+}
+.right_column{
+    flex-basis: 67%
+}
+img{
+    width: 200px;
+    float: right;
+}
+p.below_image{
+    clear: both;
+}
+.columns{
+    border-width: 4px;
+    border-style: dashed;
+    border-color: red;
+    padding: 2em;
+    margin: 2em;
+}
+p.bottom{
+    position: fixed;
+    margin-bottom: 5px;
+}
