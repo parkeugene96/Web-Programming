@@ -1,0 +1,29 @@
+body{
+    background-image: url(background.gif);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.background{
+    border: 10px white solid;
+    background: white;
+}
+.heading{
+    text-align: right;
+    background-color: #A8F0F0;
+}
+#soFresh{
+    font-size: 14pt;
+}
+
+.entry{
+    padding: 5px;
+    margin-top: 10px;
+    border: 4px #C2E9E9 solid;
+    background-color: #E8FBFB;
+}
+#links{
+    margin-left: 10%;
+}
+img{
+    float: right;
+}
