@@ -20,7 +20,7 @@
                 $text="  PHP is fun  ";
                 $trimmed=trim($text);
                 $trimlen=strlen($trimmed);
-                echo "String has $trimlen characters"
+                echo "String has $trimlen characters";
             ?>
         </p>
         <p>
