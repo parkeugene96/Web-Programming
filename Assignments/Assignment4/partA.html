@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title></title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="pageContainer centerText">
+            <h2 class="centerText"> Payroll Report </h2>
+            <div class="formGroup" id="message">
+                <p>Input the hours of each employee and then click submit</p>
+            </div>
+            <div class="formGroup">
+                <label>Worked Hours:</label>
+                <input type="number" name="hours" id="hours" class="textbox">
+            </div>
+            <div class="formGroup">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+            <div class="simpleTable">
+                <table id="payrollTable">
+                    <tr>
+                        <th>INDEX</th>
+                        <th>NUMBER OF HOURS</th>
+                        <th>PAY FOR THE WEEK</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="formGroup" id="total"></div>
+            
+            <br><br>
+            <div class="formGroup">
+                <button type="button" onclick="window.location.href='http://codd.cs.gsu.edu/~wpark5/Assignments/Assignment4/index.html'">Home</button><br>
+                <a href="partB.html">Part B</a><br>
+                <a href="partC.html">Part C</a>
+            </div>
+        </div>
+    </body>
+    <script src="js/partA.js"></script>
+</html>
