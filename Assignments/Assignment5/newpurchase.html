@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Placing Order</title>
+        <link rel="stylesheet" type="text/css" href="form.css">
+    </head>
+    
+    <body>
+        <div class="header">
+            <h2>Place Order</h2>
+        </div>
+	
+        <form method="post" action="update.php">
+            <div class="input-group">
+                <label>Purchase Number</label>
+                <input type="purchaseNo" placeholder="P###" name="purchaseNo" value="">
+            </div>
+      
+            <div class="input-group">
+                <label>Supplier ID</label>
+                <input type="supplierID" placeholder="S###" name="supplierID" value="">
+            </div>
+      
+            <div class="input-group">
+                <label>Date of Purchase</label>
+                <input type="text" placeholder="DD/MM/YY"  name="date" value="">
+            </div>
+             
+            <div class="input-group">
+                <label>Quantity of Item</label>
+                <input type="quantity" name="quantity" value="">
+            </div>
+      
+            <div class="input-group">
+                <label>Item Description</label>
+                <input type="description" name="description" value="">
+            </div>
+      
+            <div class="input-group">
+                <label>Unit Price</label>
+                <input type="price" placeholder="#.##" name="price" value="">
+            </div>
+      
+            <div class="input-group">
+                <button type="submit" class="btn" name="new_order">Place Order</button>
+            </div>
+        </form>
+        <button class="btn" type="button" onclick="window.location.href='http://codd.cs.gsu.edu/~wpark5/Assignments/Assignment5/index.html'">Home</button><br>
+    </body>
+</html>

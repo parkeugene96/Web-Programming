@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Search Order</title>
+        <link rel="stylesheet" type="text/css" href="form.css">
+    </head>
+    
+    <body>
+        <div class="header">
+            <h2>Search Orders by Supplier ID</h2>
+        </div>
+	
+        <form method="post" action="query.php">
+            <div class="input-group">
+                <label>Supplier ID</label>
+                <input type="supplierID" name="supplierID" value="">
+            </div>
+      
+            <div class="input-group">
+                <button type="submit" class="btn" name="search_order">Search Orders</button>
+            </div>
+        </form>
+        <button class="btn" type="button" onclick="window.location.href='http://codd.cs.gsu.edu/~wpark5/Assignments/Assignment5/index.html'">Home</button>
+    </body>
+</html>
